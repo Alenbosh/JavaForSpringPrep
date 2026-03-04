@@ -21,9 +21,9 @@ class Variables{
 class Loop {
     public void Loop(int i) {
         for ( i = 1; i < 15; i++) {
-            if (i % 3 == 0) {
-                continue;
-            } else System.out.println(i);
+            if (i % 3 != 0) {
+                System.out.println(i);
+            }
         }
     }
 
@@ -85,3 +85,5 @@ class Loop {
         }
     }
 }
+
+
